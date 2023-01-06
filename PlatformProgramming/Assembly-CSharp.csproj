@@ -56,14 +56,17 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Interface.cs" />
-    <Compile Include="Assets\Scripts\ParserBase.cs" />
-    <Compile Include="Assets\Scripts\NpcTableParser.cs" />
-    <Compile Include="Assets\Scripts\MonsterTableParser.cs" />
     <Compile Include="Assets\Scripts\PatchManager.cs" />
+    <Compile Include="Assets\Scripts\Interface.cs" />
+    <Compile Include="Assets\Scripts\NpcTableParser.cs" />
+    <Compile Include="Assets\Scripts\ParserBase.cs" />
+    <Compile Include="Assets\Scripts\MonsterTableParser.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\DownLoad\test1.txt" />
     <None Include="Assets\FileList.txt" />
+    <None Include="Assets\DownLoad\test2.txt" />
+    <None Include="Assets\DownLoad\test3.txt" />
     <None Include="Assets\curVersion.txt" />
   </ItemGroup>
   <ItemGroup>
