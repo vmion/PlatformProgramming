@@ -59,8 +59,10 @@
     <Compile Include="Assets\Scripts\PatchManager.cs" />
     <Compile Include="Assets\Scripts\Interface.cs" />
     <Compile Include="Assets\Scripts\NpcTableParser.cs" />
+    <Compile Include="Assets\Scripts\LoadBundle.cs" />
     <Compile Include="Assets\Scripts\ParserBase.cs" />
     <Compile Include="Assets\Scripts\MonsterTableParser.cs" />
+    <Compile Include="Assets\Scripts\UIPatchManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\DownLoad\test1.txt" />

@@ -1,3 +1,1 @@
-test1.txt
-test2.txt
-test3.txt
+patch_1_1.assetbundle

@@ -6,7 +6,10 @@ using System.IO;
 
 public class PatchManager : MonoBehaviour
 {
-    string curVersion;    
+    string curVersion;
+    public string curFileName;
+    public int totalFileCount;   
+    public int curCount;
     IEnumerator Start()
     {        
         yield return StartCoroutine(GetCurversion("curVersion.txt"));
@@ -80,10 +83,14 @@ public class PatchManager : MonoBehaviour
             }
             sr.Close();
         }
+        totalFileCount = patchList.Count;
         //List에 저장된 파일 이름을 서버에서 전송 받음
         for(int i = 0; i < patchList.Count; i++)
         {
             string url = "file:///" + "Z:\\github\\PlatformProgramming\\GClass\\" + curVersion + "\\" + patchList[i];
+            //현재 패치중인 파일 이름
+            curFileName = patchList[i];
+            curCount = i + 1;
             //using구문을 사용하지 않아도 되지만, 사용시 가비지콜렉터를 더 효율적으로 이용 가능
             //구문이 끝나면 바로 삭제됨
             using (UnityWebRequest www = new UnityWebRequest(url))
@@ -99,6 +106,7 @@ public class PatchManager : MonoBehaviour
                     string data = www.downloadHandler.text.Trim();
                     Debug.Log(data);
                     byte[] results = www.downloadHandler.data;
+                    Debug.Log(results.Length);                    
                     File.WriteAllBytes(Application.dataPath + "/DownLoad/" + patchList[i], results);
                 }
             }
