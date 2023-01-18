@@ -1,0 +1,42 @@
+﻿  TemplateDoublyLinkedList.cpp
+Z:\github\PlatformProgramming\platformC++\TemplateDoublyLinkedList\TemplateDoublyLinkedList.cpp(10,37): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ]
+Z:\github\PlatformProgramming\platformC++\TemplateDoublyLinkedList\TemplateDoublyLinkedList.cpp(11,37): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ]
+Z:\github\PlatformProgramming\platformC++\TemplateDoublyLinkedList\TemplateDoublyLinkedList.cpp(12,37): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ]
+Z:\github\PlatformProgramming\platformC++\TemplateDoublyLinkedList\TemplateDoublyLinkedList.cpp(13,37): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ]
+Z:\github\PlatformProgramming\platformC++\TemplateDoublyLinkedList\TemplateDoublyLinkedList.cpp(18,21): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ]
+Z:\github\PlatformProgramming\platformC++\TemplateDoublyLinkedList\TemplateDoublyLinkedList.cpp(22,26): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ]
+Z:\github\PlatformProgramming\platformC++\TemplateDoublyLinkedList\TemplateDoublyLinkedList.cpp(26,26): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ]
+Z:\github\PlatformProgramming\platformC++\TemplateDoublyLinkedList\TemplateDoublyLinkedList.cpp(30,23): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+          with
+          [
+              T=float
+          ]
+  TemplateDoublyLinkedList.vcxproj -> Z:\github\PlatformProgramming\platformC++\Debug\TemplateDoublyLinkedList.exe
